@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Información Motney - Plantilla de costos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 0;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 960px;
+            margin: auto;
+        }
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .instructions {
+            text-align: center;
+            padding: 20px;
+            background: #f4f4f4;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .steps {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .step {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 10px 0;
+        }
+        .step-number {
+            background: #333;
+            color: white;
+            width: 25px;
+            height: 25px;
+            display: inline-block;
+            line-height: 25px;
+            text-align: center;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .whatsapp-btn {
+            display: inline-flex;
+            align-items: center;
+            background-color: #25D366;
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        .whatsapp-btn img {
+            width: 16px;
+            height: 16px;
+            margin-right: 5px;
+        }
+        .whatsapp-btn strong {
+            margin-left: 5px;
+        }
+        @media (min-width: 768px) {
+            .container {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .step {
+                width: calc(80% - 20px);
+            }
+			#informacion {
+            width: 100%;
+            height: auto;
+        }
+        }
+		  #informacion {
+            width: 80%;
+            height: auto;
+        }
+			.redes-sociales {
+        text-align: center;
+        margin-top: 10px;
+    }
+	  .aviso-privacidad {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+	#logoEscuela {
+            position: static; 	
+			display: block;
+            margin: 0 auto;
+            width: 300px; /* Ajusta el tamaño del logo según tus necesidades */
+            height: 300px;
+		
+        }
+    </style>
+</head>
+<body>
+            <div class="step">
+                <h2><span class="step-number">2</span>
+                Confirma tu pago por Whatsapp</h2>
+                <p>Después de realizar el pago, por favor confirma la transacción a través de Whatsapp haciendo clic en el botón de abajo. para enviarte la plantilla de costos Motney y el video de ejemplo</p>
+				<a href="https://api.whatsapp.com/send/?phone=573008678022" target="_blank" class="whatsapp-btn">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png?20220228223904">
+					Confirmar pago por <strong>Whatsapp</strong>
+				</a>
+</body>
+</html>
